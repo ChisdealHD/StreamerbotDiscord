@@ -844,7 +844,7 @@ bot.on('ready', function() {
 //}, 1000)
 //});
 
-bot.login("MjM5MzIzMjU1OTMwODgwMDAw.C9oUhQ.QINA_efuEMcSucgcjS3gsTwAsvY")
+bot.login("Token")
 
 // START Roboto SETUP
 app.get('/', function(req, res){ res.send(markdown.toHTML("Running DiscordBot\nNode version: " + process.version + "\nDiscord.js version: " + Discord.version)); });
